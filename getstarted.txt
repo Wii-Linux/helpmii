@@ -101,7 +101,7 @@ Here's a few cases for how you could do so:
         You can configure this with NetworkManager.
 
         Firstly, check that your NIC is supported.  If it is, then you should
-        see it's interface.
+        see its interface.
 
         If so, then you can set it up like you would any other
         Ethernet interface, using `nmcli` or `nmtui`.
@@ -190,7 +190,7 @@ Regardless of file of partition, this is the setup process:
 Done!  You've now enabled swap-to-disk, for the current boot, and any future
 boot.
 
-Now, if you would like to enable ZRAM (a RAMDisk that compresses it's
+Now, if you would like to enable ZRAM (a RAMDisk that compresses its
 contents, and can be swapped to, it's a little more involved, but mostly the
 same process as above.  ZRAM is faster than swap-to-disk, but it involves
 spending CPU time to compress the RAM.  It's up to you if this is a
