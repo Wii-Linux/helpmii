@@ -191,7 +191,7 @@ Done!  You've now enabled swap-to-disk, for the current boot, and any future
 boot.
 
 Now, if you would like to enable ZRAM (a RAMDisk that compresses its
-contents, and can be swapped to, it's a little more involved, but mostly the
+contents, and can be swapped to), it's a little more involved, but mostly the
 same process as above.  ZRAM is faster than swap-to-disk, but it involves
 spending CPU time to compress the RAM.  It's up to you if this is a
 worthwhile tradeoff.  If you aren't doing CPU-intensive workloads, but more
